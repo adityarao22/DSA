@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bubble_sort(int arr[],int n){
+void bubble_sort(int arr[],int n){
     //for iteration of i
     for(int i=0;i<n-1;i++){
         //for pass ---> in every pass the largest number should in the last position

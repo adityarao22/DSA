@@ -131,3 +131,4 @@ select * from employee where department <> "IT" and salary>50000;
 |  3 | Sneha |  55000 | Finance    |
 |  5 | Priya |  65000 | HR         |
 +----+-------+--------+------------+
+

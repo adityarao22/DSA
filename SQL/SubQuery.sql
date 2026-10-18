@@ -34,3 +34,6 @@ select name from employee where salary > ( select avg(salary) from employee wher
 | Priya |
 +-------+
 
+select name , salary from employee where salary IN ( select salary from employee group by salary having count(*)>1);
+Empty set  //this gives the name ans salary having same salary 
+
